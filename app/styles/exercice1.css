@@ -1,0 +1,41 @@
+.blocks {
+  position: relative;
+}
+.blocks div {
+  position: absolute;
+  top: 50px;
+  left: 80px;
+  width: 90px;
+  height: 90px;
+  background-color: #F0E68C;
+  border: solid 1px;
+  font-size: 120%;
+}
+.blocks #one {
+  margin-left: 249px;
+  margin-top: 150px;
+  -ms-transform: rotate(20deg); 
+  -webkit-transform: rotate(20deg); 
+  transform: rotate(20deg);
+}
+.blocks #two {
+  margin-left: 133px;
+  margin-top: 202px;
+ -ms-transform: rotate(110deg); 
+ -webkit-transform: rotate(110deg); 
+ transform: rotate(110deg);
+}
+.blocks #three {
+  margin-left: 78px;
+ margin-top: 85px;
+ transform: rotate(300deg);
+-ms-transform: rotate(300deg); 
+ -webkit-transform: rotate(200deg); 
+}
+.blocks #four {
+  margin-left: 196px;
+margin-top: 32px;
+ transform: rotate(290deg);
+ -ms-transform: rotate(290deg); 
+ -webkit-transform: rotate(290deg); 
+}
